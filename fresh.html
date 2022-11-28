@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>fresh</title>
+
+    <link rel="stylesheet" href="my2style.css">
+
+    <link rel="shortcut icon" href="/images/jersey.JPG" type="image/x-icon">
+</head>
+
+  <body>
+    
+    <h1>
+        DISPLAY PROPERTY
+    </h1>
+
+    <h2>
+      display inline :
+    </h2>
+
+    <div>
+        <p class="max2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias<span class="a">quaerat </span>  <span class="a"> inventore</span>  ratione veniam, fugiat, culpa quo? Soluta, adipisci a nihil placeat perspiciatis fuga.</p>
+        </div>
+
+        <h3> DISPLAY;INLINE BLOCK</h3>
+
+       <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus deleniti asperiores error, eaque<span class="b"> corporis dolor</span>,<span class="b" >vero</span> doloribus labore necessitatibus voluptatum illum officia magni omnis ipsam? Adipisci sed amet non molestias?
+    </div> 
+
+      <h4>DISPALY BLOCK</h4>
+
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt laborum, id <span class="c">eaque</span> <span class="c" > quisquam </span>ducimus iure. Deserunt, labore sint. Cum possimus assumenda distinctio nam dolorum nihil totam nostrum illum optio.
+      </div>
+
+
+      <h4>HORIZONTAL NAVIGATION LINKS</h4>
+
+      <p>
+        By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).
+      </p>
+
+      <p>
+        Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+      </p>
+
+      <ul class="nav">
+
+        <li><a href="#home" target="_blank">home</a></li>
+
+        <li><a href="#about" target="_blank">About Us</a></li>
+
+        <li> <a href="#Clients" target="_blank">Our clients</a></li>
+
+        <li> <a href="contact" target="_blank">contact us</a></li>
+        
+      </ul>
+
+        <h5> CENTER AN IMAGE</h6>
+
+      <p><b>to center an image,</b> set left and right margin to auto and make it into a block element</p>
+
+      <img src="/images/paris.jpg" alt="paris">
+      <br>
+
+
+         <h6>CENTER ALIGN ELEMENTS</h5>
+
+         <p>to horizontally center block elements  (like div) , we use margin :auto ;</p>
+
+         <div class="center">
+           
+           <p> <strong>Note:</strong> using margin auto will not work in IE8, unless !DOCTYPE is declared</p>
+         </div>
+
+           <h7>RIGHT ALIGN</h7>
+
+           <P><b>An example</b> of how to right align elments woth the position property</P>
+           
+           <div class="right">
+            <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+
+           </div>
+           <br><br><br><br><br><br>
+
+           <p>
+            in this example , the image is taller than the element containing it , and its is floated , so it overflows oustide the container:
+           </p>
+
+           <div class="ex1">
+
+            <img class="img1" src="/images/pineapple.jpg" alt="pineapple" width="170" height="170">
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur, aliquam architecto qui quae odio, ad, natus sed suscipit neque blanditiis consequatur. Veritatis sit suscipit rerum pariatur similique dignissimos quam.
+
+           </div>
+
+           <p style="clear:right ;">
+            add a clear fix class with overflow:auto; to the containing elements , to fix this problem:
+           </p>
+
+           <div class="ex1">
+           <div class="clearfix">
+            <img class="img2" src="/images/pineapple.jpg" alt="pineapple" width="170" height="170">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem praesentium autem libero, cupiditate quibusdam reprehenderit, id, maxime totam quas ducimus iusto corrupti officiis. Deleniti optio soluta quaerat iste, voluptates enim.
+
+           </div>
+          </div>
+
+          <p>
+           <b> <a href="https://www.google.com/" target="_blank">google.com</a></b>
+          </p>
+          <p>
+            <b>note:</b> a:hover MUST come after a:link and a:visited in the CSS definition <q lang="no">
+            in order </q>to be effective.
+          </p>
+          <p>
+            <b>note:</b>a:active MUST come after a:hover in the CSS definition in order to be effective.
+          </p>
+
+          <p>
+            Some text <q lang="no">A quote in a paragraph</q> some text.
+          </p>
+          <p class="max">In this example , :lang defines the quotation marks for q elements with lang="no".</p>
+          <p><b>Note;</b>IE8 supports the :lang pseudo class only if a !DOCTYPE is specified.</p>
+
+          
+
+   <footer class="footer"> the angels above</footer>
+   <br><br>
+
+
+  
+  </body>
+</html>
