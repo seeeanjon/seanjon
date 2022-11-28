@@ -1,0 +1,140 @@
+
+*{
+    margin: 5px;
+    padding: 1px;
+}
+
+
+h1::before{
+  content:url(/images/tree.png);
+  
+}
+
+h1::after{
+  content: url(/images/tree.png);
+}
+
+span.a{
+
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border:1px solid blue;
+    background-color: yellow;
+}
+
+  span.b{
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+  }
+
+   span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+   }
+
+   span:hover {
+    background-color: coral;
+   }
+
+   .nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+   }
+   
+    li a:hover {
+    background-color:red;
+    color: white;
+    font-size: 30px;
+   }
+   
+   .nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+   }
+
+
+      .center{
+        margin: auto;
+        width: 60%;
+        border: 3px solid green;
+        padding: 10px;
+        text-align: center;
+      }
+
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%px;
+        
+      }
+
+         .right{
+          position: absolute;
+          right: 0px;
+          width: 300px;
+          border: 3px solid green;
+          padding: 10px;
+         }
+
+         div.ex1{
+          border: 3px solid green;
+          padding: 5px;
+         }
+        
+         .img1{
+          float: right;
+         }
+
+         .clearfix {
+          overflow: auto;
+         }
+
+         .img2{
+          float: right;
+         }
+
+         a:link{
+          color: auto;
+         }
+         a:visited{
+          color: green;
+         }
+          a:hover{
+            color: hotpink;
+          }
+
+          a:active{
+            color: blue;
+          }
+          q:lang(no){
+            quotes: "~" "~";
+          }
+          p.max::first-letter{
+            color: red;
+            font-size: 200%;
+          }
+          p.max2::first-letter{
+            color:blue;
+            font-size: 500%;
+          }
+
+          
